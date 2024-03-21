@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(61, 61, 61);
+}
+#logo {
+    width: 20%;
+    border-radius: 50%;
+    transition: .5s;
+}
+#logo:hover {
+    border-radius: 40%;
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    margin-right: 40px;
+}
+#menu ul li {
+    font-size: 90%;
+    padding: 10px;
+    margin: 2px; 
+    background-color: rgb(43, 43, 43);
+}
+#menu ul li:hover {
+    background-color: rgb(77, 77, 77);
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+#menu h2 {
+    display: none;
+}
+#rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-color: rgb(61, 61, 61);
+    margin-bottom: 0;
+}
+#rodape div {
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(114, 114, 114, 0.562);
+}
+#rodape div img {
+    display: block;
+    height: 30px;
+}
+#rodape div a {
+    margin: 10px;
+    height: 30px;
+    transition: .7s;
+    border-radius: 50%;
+}
+#rodape div a:hover {
+    background-color: rgb(155, 155, 155);
+}

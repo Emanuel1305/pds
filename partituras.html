@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Musical Mastery - Partituras</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/partituras.css">
 </head>
 <body>
     <div id="interface">
         <header id="cabecalho">
             <a href="index.html">
-                <img src="https://github.com/Emanuel1305/pds/blob/main/img/logomarca.png?raw=true" alt="logo">
+                <img id="logo" src="https://github.com/Emanuel1305/pds/blob/main/img/logomarca.png?raw=true" alt="logo">
             </a>
             <nav id="menu">
-                <h1>Menu</h1>
+                <h2>Menu</h2>
                 <ul>
                     <li><a href="teoria.html">Teoria Músical</a></li>
                     <li><a href="partituras.html">Partituras</a></li>
@@ -23,33 +25,52 @@
             </nav>
         </header>
         <main id="corpo">
-            <h1>Partituras</h1>
+            <section>
+                <div>
+                    <h1>Partituras</h1>
+                    <article>
+                        <h2>Avanger</h2>
 
-            <h2>Avanger</h2>
-            <iframe width="340" height="180" src="https://www.youtube.com/embed/os2C0TdDphc" title="MARVEL STUDIOS INTRO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <br>
-                <audio controls>
-                    <source src="audio/The_Avangers_Audio.mp3" type="audio/mp3">
-                </audio>
-                <br>
-                <a href="doc/The_Avangers-Partitura_e_Partes.pdf" download="The_Avangers-Partitura_e_Partes">Download</a>
-            <h2>Oh! Carol!</h2>
-                <iframe width="340" height="180" src="https://www.youtube.com/embed/VmF-I9T2Aus" title="Neil Sedaka - Oh! Carol | Colorized (1959) 4K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <br>
-                <audio controls>
-                    <source src="audio/Oh_Carol_Audio.mp3" type="audio/mp3">
-                </audio>
-                <br>
-                <a href="doc/Oh_Carol-Partitura_e_Partes.pdf" download="Oh_Carol-Partitura_e_Partes">Download</a>
-            <h2>Tico Tico</h2>
-                <iframe width="340" height="180" src="https://www.youtube.com/embed/6vEfCeiyYiI" title="&quot;Tico - Tico&quot;  (Play with Me n.20) - Andrea Giuffredi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <br>
-                <a href="doc/Tico_Tico_Solo_Trumpet.pdf" download="Tico_Tico_Solo_Trumpet">Download</a>
+                        <iframe class="video-partitura" src="https://www.youtube.com/embed/os2C0TdDphc" title="MARVEL STUDIOS INTRO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <br>
+                        <audio class="audio-partitura" controls>
+                            <source src="audio/The_Avangers_Audio.mp3" type="audio/mp3">
+                        </audio>
+                        <br>
+                        <iframe class="pdf-partitura"  src="doc/The_Avangers-Partitura_e_Partes.pdf" frameborder="0"></iframe>
+                        <br>
+                        <a href="doc/The_Avangers-Partitura_e_Partes.pdf" download="The_Avangers-Partitura_e_Partes">Download</a>
+                    </article>
+                    <article>
+                        <h2>Oh! Carol!</h2>
+
+                        <iframe class="video-partitura" src="https://www.youtube.com/embed/VmF-I9T2Aus" title="Neil Sedaka - Oh! Carol | Colorized (1959) 4K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <br>
+                        <audio class="audio-partitura" controls>
+                            <source src="audio/Oh_Carol_Audio.mp3" type="audio/mp3">
+                        </audio>
+                        <br>
+                        <iframe class="pdf-partitura" src="doc/Oh_Carol-Partitura_e_Partes.pdf" frameborder="0"></iframe>
+                        <br>
+                        <a href="doc/Oh_Carol-Partitura_e_Partes.pdf" download="Oh_Carol-Partitura_e_Partes">Download</a>
+                    </article>
+                    <article>
+                        <h2>Tico Tico</h2>
+                        <iframe class="video-partitura" src="https://www.youtube.com/embed/6vEfCeiyYiI" title="&quot;Tico - Tico&quot;  (Play with Me n.20) - Andrea Giuffredi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <br>
+                        <iframe class="pdf-partitura" src="doc/Tico_Tico_Solo_Trumpet.pdf" frameborder="0"></iframe>
+                        <br>
+                        <a href="doc/Tico_Tico_Solo_Trumpet.pdf" download="Tico_Tico_Solo_Trumpet">Download</a>
+                    </article>
+                </div>
+            </section>
         </main>
         <footer id="rodape">
-            <a href="https://wa.me/5569999228944" target="_blank"><img src="https://cdn.icon-icons.com/icons2/3854/PNG/512/whats_app_icon_237318.png" alt="icone whatsapp"></a>
-            <a href="https://instagram.com/manel.fagundes/" target="_blank"><img src="https://cdn.icon-icons.com/icons2/887/PNG/512/Instagram_New_icon-icons.com_69008.png" alt="icone instagram"></a>
-            <a href="https://github.com/Emanuel1305" target="_blank"><img src="https://cdn.icon-icons.com/icons2/2368/PNG/512/github_logo_icon_143772.png" alt="icone gitHub"></a>
+            <div>
+                <a href="https://wa.me/5569999228944" target="_blank"><img src="https://cdn.icon-icons.com/icons2/1130/PNG/512/calltelephoneauricularincircularbutton_80086.png"></a>
+                <a href="https://instagram.com/manel.fagundes/" target="_blank"><img src="https://cdn.icon-icons.com/icons2/887/PNG/512/Instagram_New_icon-icons.com_69008.png" alt="icone instagram"></a>
+                <a href="https://github.com/Emanuel1305" target="_blank"><img src="https://cdn.icon-icons.com/icons2/2368/PNG/512/github_logo_icon_143772.png" alt="icone gitHub"></a>
+            </div>
         </footer>
     </div>
 </body>
