@@ -1,0 +1,42 @@
+#corpo article h1{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: rgb(201, 148, 2);
+    font-size: 30pt;
+}
+#corpo article h3 {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(201, 148, 2);
+    font-size: 20pt;
+    text-align: center;
+}
+#corpo article p {
+    padding: 10px;
+    margin: 10px 0 0 10px;
+    color: rgba(255, 255, 255, 0.671);
+    text-align: justify;
+    text-indent: 20px;
+}
+#corpo article ul li {
+    padding: 10px;
+    margin-left: 80px;
+    color: rgba(255, 255, 255, 0.671);
+}
+#corpo article ul li b {
+    color: rgb(201, 148, 2);
+}
+#corpo article ol h4 {
+    padding: 10px;
+    margin-left: 50px;
+    color: rgb(201, 148, 2);
+    font-size: 15pt;
+}
+#corpo article h4 {
+    padding: 10px;
+    margin-left: 50px;
+    color: rgb(201, 148, 2);
+    font-size: 15pt;
+    margin-top: 10px;
+}

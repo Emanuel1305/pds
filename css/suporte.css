@@ -1,0 +1,34 @@
+#corpo {
+    height: 390px;
+    display: flex;
+    justify-content: center;
+}
+#corpo form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 0;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 10px;
+}
+#corpo form label {
+    color: black;
+    padding: 10px;
+}
+#inp-nome {
+    width: 300px;
+}
+#inp-email {
+    width: 300px;
+}
+#inp-senha {
+    width: 300px;
+}
+#botao {
+     width: 100px;
+     color: rgba(255, 255, 255, 0.671);
+     background-color: rgb(201, 148, 2);
+     border-radius: 10px;
+     cursor: pointer;
+}

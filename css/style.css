@@ -4,6 +4,22 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body {
+    background-color: rgb(43, 43, 43);
+    transition: .5s;
+  }
+  body.dark{
+    background-color: rgb(192, 192, 192);
+  }
+  body #corpo {
+    background-color: #353535;
+    box-shadow: 1px 1px 3px black;
+    margin: 12px;
+  }
+  body.dark #corpo{
+    background-color: white;
+    box-shadow: 1px 1px 3px black;
+  }
 #cabecalho {
     display: flex;
     align-items: center;
