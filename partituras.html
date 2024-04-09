@@ -30,42 +30,66 @@
         </header>
         <main id="corpo">
             <section>
-                <div>
-                    <h1>Partituras</h1>
-                    <article>
-                        <h2>Avanger</h2>
-
-                        <iframe class="video-partitura" src="https://www.youtube.com/embed/os2C0TdDphc" title="MARVEL STUDIOS INTRO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <br>
-                        <audio class="audio-partitura" controls preload="none">
-                            <source src="audio/The_Avangers_Audio.mp3" type="audio/mp3">
-                        </audio>
-                        <br>
-                        <iframe class="pdf-partitura"  src="doc/The_Avangers-Partitura_e_Partes.pdf" frameborder="0"></iframe>
-                        <br>
-                        <a href="doc/The_Avangers-Partitura_e_Partes.pdf" download="The_Avangers-Partitura_e_Partes">Download</a>
-                    </article>
-                    <article>
-                        <h2>Oh! Carol!</h2>
-
-                        <iframe class="video-partitura" src="https://www.youtube.com/embed/VmF-I9T2Aus" title="Neil Sedaka - Oh! Carol | Colorized (1959) 4K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <br>
-                        <audio class="audio-partitura" controls preload="none">
-                            <source src="audio/Oh_Carol_Audio.mp3" type="audio/mp3">
-                        </audio>
-                        <br>
-                        <iframe class="pdf-partitura" src="doc/Oh_Carol-Partitura_e_Partes.pdf" frameborder="0"></iframe>
-                        <br>
-                        <a href="doc/Oh_Carol-Partitura_e_Partes.pdf" download="Oh_Carol-Partitura_e_Partes">Download</a>
-                    </article>
-                    <article>
-                        <h2>Tico Tico</h2>
-                        <iframe class="video-partitura" src="https://www.youtube.com/embed/6vEfCeiyYiI" title="&quot;Tico - Tico&quot;  (Play with Me n.20) - Andrea Giuffredi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <br>
-                        <iframe class="pdf-partitura" src="doc/Tico_Tico_Solo_Trumpet.pdf" frameborder="0"></iframe>
-                        <br>
-                        <a href="doc/Tico_Tico_Solo_Trumpet.pdf" download="Tico_Tico_Solo_Trumpet">Download</a>
-                    </article>
+                <h1>Partituras</h1>
+                <div class="carousel">
+                    <input type="radio" name="carousel" id="slide1" checked>
+                    <input type="radio" name="carousel" id="slide2">
+                    <input type="radio" name="carousel" id="slide3">
+                    <div class="slides">
+                      <div class="slide">
+                        <article>
+                            <section id="acima">
+                                <h2>Avanger</h2>
+                            </section>
+                            <section id="esquerda">
+                                <iframe class="video-partitura" src="https://www.youtube.com/embed/os2C0TdDphc" title="MARVEL STUDIOS INTRO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <audio class="audio-partitura" controls preload="none">
+                                    <source src="audio/The_Avangers_Audio.mp3" type="audio/mp3">
+                                </audio>
+                                <a id="download" href="doc/The_Avangers-Partitura_e_Partes.pdf" download="The_Avangers-Partitura_e_Partes">Download</a>
+                            </section>
+                            <aside id="direita">
+                                <iframe class="pdf-partitura"  src="doc/The_Avangers-Partitura_e_Partes.pdf" frameborder="0"></iframe>
+                            </aside>
+                        </article>
+                      </div>
+                      <div class="slide">
+                        <article>
+                            <section id="acima">
+                                <h2>Oh! Carol!</h2>
+                            </section>
+                            <section id="esquerda">
+                                <iframe class="video-partitura" src="https://www.youtube.com/embed/VmF-I9T2Aus" title="Neil Sedaka - Oh! Carol | Colorized (1959) 4K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <audio class="audio-partitura" controls preload="none">
+                                    <source src="audio/Oh_Carol_Audio.mp3" type="audio/mp3">
+                                </audio>
+                                <a id="download" href="doc/Oh_Carol-Partitura_e_Partes.pdf" download="Oh_Carol-Partitura_e_Partes">Download</a>
+                            </section>
+                            <aside id="direita">
+                                <iframe class="pdf-partitura" src="doc/Oh_Carol-Partitura_e_Partes.pdf" frameborder="0"></iframe>
+                            </aside>
+                        </article>
+                      </div>
+                      <div class="slide">
+                        <article>
+                            <section id="acima">
+                                <h2>Tico Tico</h2>
+                            </section>
+                            <section id="esquerda">
+                                <iframe class="video-partitura" src="https://www.youtube.com/embed/6vEfCeiyYiI" title="&quot;Tico - Tico&quot;  (Play with Me n.20) - Andrea Giuffredi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <a id="download" href="doc/Tico_Tico_Solo_Trumpet.pdf" download="Tico_Tico_Solo_Trumpet">Download</a>
+                            </section>
+                            <aside id="direita">
+                                <iframe class="pdf-partitura" src="doc/Tico_Tico_Solo_Trumpet.pdf" frameborder="0"></iframe>
+                            </aside>
+                        </article>
+                      </div>
+                    </div>
+                    <div class="navigation">
+                      <label for="slide1"></label>
+                      <label for="slide2"></label>
+                      <label for="slide3"></label>
+                    </div>
                 </div>
             </section>
         </main>
