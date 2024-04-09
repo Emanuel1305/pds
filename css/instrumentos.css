@@ -1,0 +1,79 @@
+article {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+}
+div#acima {
+    padding: 0 30px 0 30px;
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+}
+section#abaixo{
+    clear: both;
+    display: inline-block;
+    padding: 30px;
+}
+#acima p {
+    padding-top: 7px;
+    color: rgba(255, 255, 255, 0.671);
+    text-align: justify;
+    text-indent: 20px;
+}
+#corpo h2 {
+    padding-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(201, 148, 2);
+    font-size: 40pt;
+    text-align: center;
+}
+#corpo figure img{
+    margin: 10px auto 0 auto;
+    border: 4px solid black;
+}
+aside#lateral {
+    display: block;
+    margin-right: auto;
+    width: 40%;
+    float: right;
+}
+img#instrumento {
+    width: 100%;
+}
+section#texto {
+    display: block;
+    max-width: 60%;
+    margin-left: auto;
+    float: left;
+    color: rgba(255, 255, 255, 0.671);
+    text-align: justify;
+    text-indent: 20px;
+}
+section#texto div {
+    width: 97%;
+}
+section#texto div p {
+    width: 100%;
+}
+section#abaixo {
+    display: block;
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+}
+#extensao {
+    margin: 0 auto 0 auto;
+    width: 20%;
+}
+#extensao img {
+    width: 100%;
+    background-color: white;
+}
+#extensao h3 {
+    color: rgb(201, 148, 2);
+    font-size: 160%;
+    text-align: center;
+}
+#notas {
+    width: 100%;
+}
+#notas img {
+    width: 100%;
+}
