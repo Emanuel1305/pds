@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 #corpo {
   height: 1000px;
 }
@@ -8,13 +9,14 @@
   border-radius: 10px;
 }
 #corpo h1 {
+  font-family: "Bungee Spice", sans-serif;
   position: absolute;
   text-transform: uppercase;
   color: rgb(201, 148, 2);
   text-shadow: 0 0 10px black;
   left: 5%;
   top: 280px;
-  font-size: 50pt;
+  font-size: 49pt;
   margin: 0 auto 0 auto;
   padding: 10px;
 }
